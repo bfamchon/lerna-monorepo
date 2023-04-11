@@ -6,6 +6,9 @@
   "command": {
     "version": {
       "message": "chore(release): publish"
+    },
+    "publish": {
+      "registry": "http://localhost:8080/"
     }
   }
 }

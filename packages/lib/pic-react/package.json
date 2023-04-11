@@ -1,0 +1,34 @@
+{
+  "name": "pic-react",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "bfamchon <bfamchon@gmail.com>",
+  "homepage": "",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/types/index.d.ts",
+  "license": "ISC",
+  "directories": {
+    "lib": "dist"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "node ./__tests__/react-library.test.js",
+    "build": "npm run tsc",
+    "tsc": "tsc -p ."
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "pic-stencil": "*"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.34",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^5.0.4"
+  }
+}

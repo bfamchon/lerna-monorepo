@@ -9,6 +9,11 @@
   },
   "packageManager": "yarn@3.5.0",
   "workspaces": [
-    "packages/*"
-  ]
+    "packages/lib/*",
+    "packages/demo/*"
+  ],
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "typescript": "^5.0.4"
+  }
 }

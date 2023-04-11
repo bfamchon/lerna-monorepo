@@ -1,6 +1,6 @@
 {
   "name": "pic-react",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "> TODO: description",
   "author": "bfamchon <bfamchon@gmail.com>",
   "homepage": "",
@@ -23,7 +23,7 @@
     "access": "public"
   },
   "dependencies": {
-    "pic-stencil": "*"
+    "pic-stencil": "^0.1.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.34",

@@ -1,0 +1,13 @@
+{
+  "name": "lerna-monorepo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "lerna": "^6.6.1"
+  },
+  "packageManager": "yarn@3.5.0",
+  "workspaces": [
+    "packages/*"
+  ]
+}
